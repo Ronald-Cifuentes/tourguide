@@ -1,0 +1,146 @@
+.btn {
+  background: #b3b3b3;
+  border: 2px solid #b3b3b3;
+  border-radius: 8px !important;
+  color: white;
+  font-weight: normal;
+  padding: 8px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 113px;
+}
+
+.btn-info {
+  background: #166dc2;
+  border: 2px solid #166dc2;
+}
+
+.btn-success {
+  background: #2ab573;
+  border: 2px solid #2ab573;
+}
+
+.btn-danger {
+  background: #f2f3f3;
+  border: 2px solid #f2f3f3;
+}
+
+.btn-warning {
+  background: #e4e339;
+  border: 2px solid #e4e339;
+}
+
+.btn-big {
+  width: 100%;
+}
+
+/* EPV-INTRO */
+
+.epv-intro .title {
+  color: #166dc2;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.epv-intro .text-content {
+  width: 356px;
+  color: #323a44;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  margin-bottom: 40px !important;
+}
+
+.epv-intro .shepherd-header {
+  padding: 24px 24px 0 24px;
+}
+
+.epv-intro .shepherd-text {
+  padding: 0 24px;
+}
+
+.epv-intro .shepherd-footer {
+  padding: 0 24px 24px 24px;
+}
+
+.epv-intro.shepherd-centered.shepherd-enabled {
+  border-radius: 12px;
+}
+
+/* EPV-STEPS */
+
+.epv-steps .icon-arrow {
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.epv-steps .title {
+  width: 235px;
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+
+.epv-steps .text-content {
+  width: 240px;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+
+.epv-steps.shepherd-button:not(:disabled):hover {
+  background: white;
+  border: 2px solid #b3b3b3;
+  color: #b3b3b3;
+}
+
+.epv-steps.shepherd-has-title .shepherd-content .shepherd-header {
+  background: white;
+  padding: 12px 12px 0 12px;
+  font-family: Open Sans;
+  font-size: 12px;
+}
+
+/* .epv-steps.shepherd-content {
+  border-radius: 20px !important;
+} */
+
+.epv-steps .shepherd-title {
+  font-weight: 700;
+}
+
+.epv-steps .shepherd-text {
+  display: flex;
+}
+
+.epv-steps.shepherd-enabled.shepherd-element {
+  width: 320px;
+}
+
+/* .epv-steps.shepherd-element,
+.epv-steps .shepherd-header {
+  border-radius: 12px;
+} */
+
+.epv-steps.shepherd-centered.shepherd-enabled {
+  border-radius: 12px;
+}
